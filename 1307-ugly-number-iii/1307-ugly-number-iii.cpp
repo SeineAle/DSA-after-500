@@ -16,7 +16,7 @@ public:
         ll labc = lcm(max(lab, c), min(lab, c));
 
         ll s = 0;
-        ll e = n*a;
+        ll e = 1e18;
 
         while(s <= e){
             ll m = (s+e)/2;
