@@ -1,42 +1,39 @@
-#define ceil(n, m) (((n) + (m) - 1) / (m)) 
-#define ll long long
 class Solution {
 public:
-    ll gcd(ll a,ll b){ 
-        if (b==0) return a; 
-        return gcd(b, a%b); 
-    }
-    ll lcm(ll a,ll b){ 
-        return (a/gcd(a,b))*b; 
-    }
-    ll solve(ll n , ll a, ll b, ll c){
-        ll lab = lcm(max(a, b), min(a, b));
-        ll lbc = lcm(max(c, b), min(c, b));
-        ll lac = lcm(max(a, c), min(a, c));
-        ll labc = lcm(max(lab, c), min(lab, c));
-
-        ll s = 0;
-        ll e = 1e18;
-
-        while(s <= e){
-            ll m = (s+e)/2;
-            ll cost = m/a + m/b + m/c + m/labc - m/lab - m/lbc - m/lac;
-            if(cost == n && (m&a == 0 || m%b == 0 || m%c == 0)) return m;
-            if(cost >= n) e = m-1;
-            if(cost < n) s = m+1;
+    long long gcd(long long a, long long b) {
+        while (b != 0) {
+            long long temp = b;
+            b = a % b;
+            a = temp;
         }
-        return -1;
+        return a;
     }
+
+    long long lcm(long long a, long long b) { 
+        return (a / gcd(a, b)) * b; 
+    }
+
+    long long ck(long long a, long long b, long long c, long long m) {
+        return m / a + m / b + m / c 
+               - m / lcm(a, b) 
+               - m / lcm(a, c) 
+               - m / lcm(b, c) 
+               + m / lcm(a, lcm(b, c));
+    }
+
     int nthUglyNumber(int n, int a, int b, int c) {
-        ll x = solve(n, a, b, c);
-        cout << x << endl;
-        if(x != -1) return x;
-        ll y = solve(n, b, a, c);
-        cout << y << endl;
-        if(y != -1) return y;
-        ll z = solve(n, c, a, b);
-        cout << z << endl;
-        if(z != -1) return z;
-        return -1;
+        long long lo = 1;
+        long long hi = 2 * 1e15;
+        long long ans = 0;
+        while (lo <= hi) {
+            long long mid = (lo + hi) / 2;
+            if (ck(a, b, c, mid) < n) {
+                lo = mid + 1;
+            } else {
+                ans = mid;
+                hi = mid - 1;
+            }
+        }
+        return ans;
     }
 };
