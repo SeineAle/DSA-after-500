@@ -34,3 +34,19 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3386-find-edges-in-shortest-paths](https://github.com/SeineAle/DSA-after-500/tree/master/3386-find-edges-in-shortest-paths) |
+# Math
+|  |
+| ------- |
+| [1307-ugly-number-iii](https://github.com/SeineAle/DSA-after-500/tree/master/1307-ugly-number-iii) |
+# Binary Search
+|  |
+| ------- |
+| [1307-ugly-number-iii](https://github.com/SeineAle/DSA-after-500/tree/master/1307-ugly-number-iii) |
+# Combinatorics
+|  |
+| ------- |
+| [1307-ugly-number-iii](https://github.com/SeineAle/DSA-after-500/tree/master/1307-ugly-number-iii) |
+# Number Theory
+|  |
+| ------- |
+| [1307-ugly-number-iii](https://github.com/SeineAle/DSA-after-500/tree/master/1307-ugly-number-iii) |
