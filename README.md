@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0330-patching-array](https://github.com/SeineAle/DSA-after-500/tree/master/0330-patching-array) |
+| [3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum](https://github.com/SeineAle/DSA-after-500/tree/master/3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum) |
 | [3404-minimum-number-of-operations-to-satisfy-conditions](https://github.com/SeineAle/DSA-after-500/tree/master/3404-minimum-number-of-operations-to-satisfy-conditions) |
 # Dynamic Programming
 |  |
@@ -43,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1307-ugly-number-iii](https://github.com/SeineAle/DSA-after-500/tree/master/1307-ugly-number-iii) |
+| [3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum](https://github.com/SeineAle/DSA-after-500/tree/master/3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum) |
 # Combinatorics
 |  |
 | ------- |
@@ -55,3 +57,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0330-patching-array](https://github.com/SeineAle/DSA-after-500/tree/master/0330-patching-array) |
+# Stack
+|  |
+| ------- |
+| [3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum](https://github.com/SeineAle/DSA-after-500/tree/master/3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum) |
+# Monotonic Stack
+|  |
+| ------- |
+| [3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum](https://github.com/SeineAle/DSA-after-500/tree/master/3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum) |
