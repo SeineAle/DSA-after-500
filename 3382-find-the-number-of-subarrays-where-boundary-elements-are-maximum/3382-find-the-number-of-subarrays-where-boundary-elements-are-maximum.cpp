@@ -80,11 +80,6 @@ public:
         for(ll i = 0; i < n; i ++){
             freq[nums[i]].push_back(i);
         }
-        // for(auto p : freq){
-        //     cout << p.first << " - ";
-        //     for(auto el : p.second) cout << el << " ";
-        //     cout << endl;
-        // }
         SegmentTree ST(nums);
         ll ans = 0;
         for(auto & p : freq){
