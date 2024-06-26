@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0330-patching-array](https://github.com/SeineAle/DSA-after-500/tree/master/0330-patching-array) |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/SeineAle/DSA-after-500/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/SeineAle/DSA-after-500/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1675-magnetic-force-between-two-balls](https://github.com/SeineAle/DSA-after-500/tree/master/1675-magnetic-force-between-two-balls) |
 | [3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum](https://github.com/SeineAle/DSA-after-500/tree/master/3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum) |
@@ -73,3 +74,19 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1675-magnetic-force-between-two-balls](https://github.com/SeineAle/DSA-after-500/tree/master/1675-magnetic-force-between-two-balls) |
+# Bit Manipulation
+|  |
+| ------- |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/SeineAle/DSA-after-500/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
+# Queue
+|  |
+| ------- |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/SeineAle/DSA-after-500/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
+# Sliding Window
+|  |
+| ------- |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/SeineAle/DSA-after-500/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
+# Prefix Sum
+|  |
+| ------- |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/SeineAle/DSA-after-500/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
